@@ -40,21 +40,26 @@ def em_get(secids, retries=3):
     return []
 
 def main():
-    # 标的行情
+    # 标的行情(失败则保留 data/ 里的种子快照, 不中断)
     diff = em_get([USEC[u] for u in ULS])
-    if not diff:
-        print('FATAL: no underlying quotes'); sys.exit(1)
-    json.dump({'data': {'diff': diff}}, open(os.path.join(DATA, 'em_underlyings.json'), 'w'))
-    print('underlyings ok', flush=True)
+    if diff:
+        json.dump({'data': {'diff': diff}}, open(os.path.join(DATA, 'em_underlyings.json'), 'w'))
+        print('underlyings ok', flush=True)
+    else:
+        print('WARN: 东财标的行情抓取失败(可能网络受限), 沿用种子快照', flush=True)
 
-    # 期权链(分块60个)
+    # 期权链(分块60个; 某块抓空则保留旧文件)
     for ul in ULS:
         secids = [s for s in open(os.path.join(DATA, f'secids_{ul}.txt')).read().strip().split(',') if s]
         pat = OUTNAME.get(ul, f'em_{ul}_' + '{i}.json')
         for i in range(0, len(secids), 60):
             chunk = secids[i:i+60]
             diff = em_get(chunk)
-            json.dump({'data': {'diff': diff}}, open(os.path.join(DATA, pat.format(i=i//60)), 'w'))
+            fp = os.path.join(DATA, pat.format(i=i//60))
+            if diff:
+                json.dump({'data': {'diff': diff}}, open(fp, 'w'))
+            else:
+                print(f'WARN: {ul} chunk {i//60} 抓取为空, 沿用旧文件', flush=True)
             print(ul, 'chunk', i//60, len(diff), flush=True)
             time.sleep(0.5)
 
