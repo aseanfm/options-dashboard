@@ -1,0 +1,45 @@
+{
+  "fetched_at": "2026-08-17 07:58 CT",
+  "note": "CME官网延迟行情(>=10min), ATM视图, 2026-09-18到期(Sep-26), 无盘口/持仓量",
+  "products": {
+    "SPX-FOP": {"future_code": "ESU6", "future_px": 7810.25, "future_chg": "+0.07%", "expiry": "2026-09-18",
+      "rows": [
+        {"K":7700,"c":{"vo":13,"hi":193.00,"lo":184.00,"settle":182.25,"chg":"+10.75","ls":193.00},"p":{"ls":71.25,"chg":"-6.25","settle":77.50,"lo":71.25,"hi":75.25,"vo":130}},
+        {"K":7725,"c":{"vo":1,"hi":170.00,"lo":170.00,"settle":164.75,"chg":"+5.25","ls":170.00},"p":{"ls":83.00,"chg":"-2.00","settle":85.00,"lo":83.00,"hi":83.00,"vo":8}},
+        {"K":7750,"c":{"vo":3,"hi":null,"lo":null,"settle":148.00,"chg":null,"ls":null},"p":{"ls":87.50,"chg":"-5.75","settle":93.25,"lo":87.50,"hi":87.50,"vo":28}},
+        {"K":7775,"c":{"vo":3,"hi":138.50,"lo":138.50,"settle":132.50,"chg":"+6.00","ls":138.50},"p":{"ls":null,"chg":null,"settle":102.50,"lo":null,"hi":null,"vo":4}},
+        {"K":7800,"c":{"vo":126,"hi":119.00,"lo":119.00,"settle":117.50,"chg":"+1.50","ls":119.00},"p":{"ls":107.00,"chg":"-5.50","settle":112.50,"lo":105.00,"hi":110.50,"vo":139}},
+        {"K":7825,"c":{"vo":52,"hi":110.50,"lo":108.50,"settle":103.75,"chg":"+4.75","ls":108.50},"p":{"ls":116.50,"chg":"-7.25","settle":123.75,"lo":116.50,"hi":116.50,"vo":37}},
+        {"K":7835,"c":{"vo":217,"hi":105.00,"lo":102.50,"settle":98.50,"chg":"+4.50","ls":103.00},"p":{"ls":null,"chg":null,"settle":128.50,"lo":null,"hi":null,"vo":0}},
+        {"K":7850,"c":{"vo":25,"hi":94.75,"lo":93.50,"settle":91.00,"chg":"+3.75","ls":94.75},"p":{"ls":134.00,"chg":"-2.00","settle":136.00,"lo":134.00,"hi":134.00,"vo":1}},
+        {"K":7875,"c":{"vo":1,"hi":null,"lo":null,"settle":79.25,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":149.00,"lo":null,"hi":null,"vo":0}},
+        {"K":7900,"c":{"vo":113,"hi":73.75,"lo":73.50,"settle":68.50,"chg":"+5.25","ls":73.75},"p":{"ls":null,"chg":null,"settle":163.25,"lo":null,"hi":null,"vo":1}}
+      ]},
+    "NDX-FOP": {"future_code": "NQU6", "future_px": 30186.00, "future_chg": "+0.15%", "expiry": "2026-09-18",
+      "rows": [
+        {"K":29800,"c":{"vo":1,"hi":null,"lo":null,"settle":879.25,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":538.50,"lo":null,"hi":null,"vo":0}},
+        {"K":29900,"c":{"vo":2,"hi":888.00,"lo":888.00,"settle":817.25,"chg":"+70.75","ls":888.00},"p":{"ls":null,"chg":null,"settle":576.25,"lo":null,"hi":null,"vo":0}},
+        {"K":30000,"c":{"vo":6,"hi":830.00,"lo":830.00,"settle":757.75,"chg":"+72.25","ls":830.00},"p":{"ls":565.00,"chg":"-51.50","settle":616.50,"lo":565.00,"hi":592.00,"vo":9}},
+        {"K":30100,"c":{"vo":0,"hi":null,"lo":null,"settle":700.75,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":659.25,"lo":null,"hi":null,"vo":0}},
+        {"K":30200,"c":{"vo":2,"hi":null,"lo":null,"settle":646.25,"chg":null,"ls":null},"p":{"ls":658.00,"chg":"-46.50","settle":704.50,"lo":658.00,"hi":676.00,"vo":11}},
+        {"K":30250,"c":{"vo":5,"hi":693.00,"lo":648.00,"settle":620.25,"chg":"+72.75","ls":693.00},"p":{"ls":700.00,"chg":"-28.00","settle":728.00,"lo":700.00,"hi":700.00,"vo":6}},
+        {"K":30300,"c":{"vo":2,"hi":null,"lo":null,"settle":594.50,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":752.25,"lo":null,"hi":null,"vo":0}},
+        {"K":30400,"c":{"vo":22,"hi":621.00,"lo":619.00,"settle":545.50,"chg":"+74.50","ls":620.00},"p":{"ls":null,"chg":null,"settle":803.00,"lo":null,"hi":null,"vo":2}},
+        {"K":30500,"c":{"vo":13,"hi":545.00,"lo":545.00,"settle":499.00,"chg":"+46.00","ls":545.00},"p":{"ls":793.00,"chg":"-63.25","settle":856.25,"lo":766.00,"hi":793.00,"vo":5}},
+        {"K":30600,"c":{"vo":0,"hi":null,"lo":null,"settle":455.25,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":912.25,"lo":null,"hi":null,"vo":0}}
+      ]},
+    "RUT-FOP": {"future_code": "RTYU6", "future_px": 3062.00, "future_chg": "-0.42%", "expiry": "2026-09-18",
+      "rows": [
+        {"K":2950,"c":{"vo":0,"hi":null,"lo":null,"settle":148.75,"chg":null,"ls":null},"p":{"ls":23.00,"chg":"-1.25","settle":24.25,"lo":23.00,"hi":23.00,"vo":1}},
+        {"K":2975,"c":{"vo":0,"hi":null,"lo":null,"settle":128.75,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":29.25,"lo":null,"hi":null,"vo":0}},
+        {"K":3000,"c":{"vo":0,"hi":null,"lo":null,"settle":110.00,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":35.25,"lo":null,"hi":null,"vo":0}},
+        {"K":3025,"c":{"vo":0,"hi":null,"lo":null,"settle":92.25,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":42.50,"lo":null,"hi":null,"vo":0}},
+        {"K":3050,"c":{"vo":0,"hi":null,"lo":null,"settle":76.00,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":51.25,"lo":null,"hi":null,"vo":0}},
+        {"K":3075,"c":{"vo":0,"hi":null,"lo":null,"settle":61.50,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":61.75,"lo":null,"hi":null,"vo":0}},
+        {"K":3100,"c":{"vo":2,"hi":49.75,"lo":49.75,"settle":49.00,"chg":"+0.75","ls":49.75},"p":{"ls":null,"chg":null,"settle":74.00,"lo":null,"hi":null,"vo":0}},
+        {"K":3125,"c":{"vo":0,"hi":null,"lo":null,"settle":38.00,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":88.00,"lo":null,"hi":null,"vo":0}},
+        {"K":3150,"c":{"vo":1,"hi":null,"lo":null,"settle":29.00,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":104.00,"lo":null,"hi":null,"vo":0}},
+        {"K":3175,"c":{"vo":1,"hi":null,"lo":null,"settle":21.75,"chg":null,"ls":null},"p":{"ls":null,"chg":null,"settle":121.50,"lo":null,"hi":null,"vo":0}}
+      ]}
+  }
+}
